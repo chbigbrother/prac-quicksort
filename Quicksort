@@ -1,7 +1,8 @@
 package com.yeonjee.practice01;
 
 public class QuickSort {
-    
+    //Quicksort has a O(NlogN) time complexity
+    //useful when you frequently delete and insert data
     public void sort(int[] data, int start, int end){
     	int key = start;
     	int last = end;
